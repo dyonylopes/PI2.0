@@ -22,7 +22,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KEYTECH", ".", "{A1A0C1EC-F
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63477"
 		SlnRelativePath = "..\KEYTECH\"
-		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -37,6 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A0B7B5CF-41E3-4C71-B895-993AD6110D3B}
+		SolutionGuid = {C362EDA2-5964-4D50-A162-85154FFF3FC7}
 	EndGlobalSection
 EndGlobal
