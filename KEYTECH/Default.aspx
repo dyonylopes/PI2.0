@@ -63,7 +63,7 @@
 
 						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
 						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">FAÇA SEU PEDIDO</div>
+						letter-spacing: 5px; font-weight: 600; min-width: auto;" data-toggle="modal" data-target="#myModalPedido">FAÇA SEU PEDIDO</div>
 				
 				</li>
 				
@@ -122,7 +122,7 @@
 
 						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
 						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">FAÇA SEU PEDIDO</div>
+						letter-spacing: 5px; font-weight: 600; min-width: auto;" data-toggle="modal" data-target="#myModalPedido">FAÇA SEU PEDIDO</div>
 				
 				</li>
 				
@@ -158,7 +158,7 @@
 						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
 
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
-						color: rgba(255,255,255,100); ">PRATO 4</div>
+						color: rgba(255,255,255,100); ">PRATO 3</div>
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 
@@ -179,7 +179,7 @@
 
 						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
 						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">FAÇA SEU PEDIDO</div>
+						letter-spacing: 5px; font-weight: 600; min-width: auto;" data-toggle="modal" data-target="#myModalPedido">FAÇA SEU PEDIDO</div>
 				
 				</li>
 				
@@ -239,7 +239,7 @@
 
 						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
 						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">FAÇA SEU PEDIDO</div>
+						letter-spacing: 5px; font-weight: 600; min-width: auto;" data-toggle="modal" data-target="#myModalPedido">FAÇA SEU PEDIDO</div>
 				
 				</li>
 
@@ -299,7 +299,7 @@
 
 						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
 						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">FAÇA SEU PEDIDO</div>
+						letter-spacing: 5px; font-weight: 600; min-width: auto;" data-toggle="modal" data-target="#myModalPedido">FAÇA SEU PEDIDO</div>
 				
 				</li>
 
@@ -314,6 +314,52 @@
 
 
 
+	<!-- Modal Faça seu pedido -->
+    <div class="modal" id="myModalPedido">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Pedido</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    
+                    <label>Prato:</label>
+                    <asp:DropDownList runat="server" ID="ddlPrato" CssClass="form-control">
+                        <asp:ListItem Value="P1" Selected="true">Prato 01</asp:ListItem> 
+                        <asp:ListItem Value="P2">Prato 02</asp:ListItem>
+                        <asp:ListItem Value="P3">Prato 03</asp:ListItem>
+                        <asp:ListItem Value="P4">Prato 04</asp:ListItem>
+                        <asp:ListItem Value="P5" >Prato 05</asp:ListItem>
+                        </asp:DropDownList>
+                    <br />
+                    
+                    <label>Rua:</label>
+                    <asp:TextBox runat="server" ID="txtRua" CssClass="form-control"></asp:TextBox>
+                    <br />
+
+                    <label>Numero:</label>
+                    <asp:TextBox runat="server" ID="txtNumero" type="number" CssClass="form-control"></asp:TextBox>
+
+                    <br />
+                    <label>Bairro</label>
+                    <asp:TextBox runat="server" ID="txtBairro" CssClass="form-control"></asp:TextBox>
+                    <br />
+                </div>
+               
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <asp:Button runat="server" ID="btnPedido" CssClass="btn btn-primary" Text="Pedido" OnClick="btnPedido_Click" />
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 

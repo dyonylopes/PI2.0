@@ -73,7 +73,7 @@
         <header>
 		<a class="logo" href="Default.aspx"><img src="Imagens/Logo.png" alt="Logo"></>
             
-		<a class="right-area" href="Admin.aspx">LOGIN</a>
+		<a class="right-area" href="Admin.aspx" data-toggle="modal" data-target="#myModal">LOGIN</a>
 		
 		<a class="menu-nav-icon" data-menu="#main-menu"><i class="ion-navicon"></i></a>
 		
@@ -182,6 +182,39 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 		
-    </form>
+  
+	 <!-- Modal  Login-->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <label>E-mail:</label>
+                        <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control"></asp:TextBox>
+                        <br />
+                        <label>Senha:</label>
+                        <asp:TextBox runat="server" ID="txtSenha" type="password" CssClass="form-control"></asp:TextBox>
+                        <br />
+                         
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                         <asp:Button runat="server" ID="btn" CssClass="btn btn-primary" Text="Login" OnClick="btn_Click" />  
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>	
+	
+	</form>
 </body>
 </html>
