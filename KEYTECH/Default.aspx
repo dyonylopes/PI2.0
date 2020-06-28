@@ -43,6 +43,28 @@
 
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
 						color: rgba(255,255,255,100); ">PRATO 1</div>
+					
+					<!--  Preço -->
+					<div class="tp-caption tp-resizeme" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['80%','80%','80%','80%']" data-voffset="['-53','-53','-53','-33']" 
+						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
+						data-width="none" data-height="none" data-whitespace="nowrap"
+			 
+						data-type="text" data-responsive_offset="on" 
+
+						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
+						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+
+						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
+						color: rgba(255,255,255,100); ">Apenas R$ 15,99</div>
+
+
+
+					
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 
@@ -103,6 +125,24 @@
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
 						color: rgba(255,255,255,100); ">PRATO 2</div>
 
+					<!--  Preço -->
+					<div class="tp-caption tp-resizeme" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['80%','80%','80%','80%']" data-voffset="['-53','-53','-53','-33']" 
+						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
+						data-width="none" data-height="none" data-whitespace="nowrap"
+			 
+						data-type="text" data-responsive_offset="on" 
+
+						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
+						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+
+						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
+						color: rgba(255,255,255,100); ">Apenas R$ 13,99</div>
+
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 
 						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
@@ -159,6 +199,24 @@
 
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
 						color: rgba(255,255,255,100); ">PRATO 3</div>
+
+					<!--  Preço -->
+					<div class="tp-caption tp-resizeme" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['80%','80%','80%','80%']" data-voffset="['-53','-53','-53','-33']" 
+						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
+						data-width="none" data-height="none" data-whitespace="nowrap"
+			 
+						data-type="text" data-responsive_offset="on" 
+
+						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
+						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+
+						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
+						color: rgba(255,255,255,100); ">Apenas R$ 12,90</div>
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 
@@ -220,6 +278,24 @@
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
 						color: rgba(255,255,255,100); ">PRATO 4</div>
 
+					<!--  Preço -->
+					<div class="tp-caption tp-resizeme" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['80%','80%','80%','80%']" data-voffset="['-53','-53','-53','-33']" 
+						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
+						data-width="none" data-height="none" data-whitespace="nowrap"
+			 
+						data-type="text" data-responsive_offset="on" 
+
+						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
+						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+
+						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
+						color: rgba(255,255,255,100); ">Apenas R$ 10,99</div>
+
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 
 						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
@@ -279,6 +355,25 @@
 
 						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
 						color: rgba(255,255,255,100); ">PRATO 5</div>
+
+
+					<!--  Preço -->
+					<div class="tp-caption tp-resizeme" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['80%','80%','80%','80%']" data-voffset="['-53','-53','-53','-33']" 
+						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
+						data-width="none" data-height="none" data-whitespace="nowrap"
+			 
+						data-type="text" data-responsive_offset="on" 
+
+						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
+						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+
+						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
+						color: rgba(255,255,255,100); ">Apenas R$ 12,00</div>
 
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme visit-btn" 

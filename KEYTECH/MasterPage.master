@@ -71,7 +71,7 @@
 
 
         <header>
-		<a class="logo" href="Default.aspx"><img src="Imagens/Logo.png" alt="Logo"></>
+		<a class="logo" href="Default.aspx"><img src="Imagens/Logo.png" alt="Logo" />
             
 		<a class="right-area" href="Admin.aspx" data-toggle="modal" data-target="#myModal">LOGIN</a>
 		
