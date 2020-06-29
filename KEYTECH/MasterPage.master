@@ -79,7 +79,7 @@
 		
 		<ul class="main-menu" id="main-menu">
 			<li><a href="Default.aspx">HOME</a></li>
-            <li><a href="Reserva.aspx">RESERVE AGORA</a>
+            <li><a href="ReserveAgora.aspx">RESERVE AGORA</a>
             <li><a href="mailto:contato@sabordovale.com.br">CONTATO@SABORDOVALE.COM.BR</a></li>
 								
 					

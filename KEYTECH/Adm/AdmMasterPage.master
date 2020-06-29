@@ -79,6 +79,8 @@
 		<ul class="main-menu" id="main-menu">
 			<li><a href="Default.aspx">HOME</a>
             </li>
+			<li><a href="ReservaAgoraAdm.aspx">RESERVAS</a>
+            </li>
             <li><a href="PedidoPrato.aspx">PEDIDOS</a>
             </li>
             <li><a href="../Default.aspx">SAIR</a></li>
