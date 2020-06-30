@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <div align="center"> <h3 >CONSULTAR PEDIDOS</h3></div>
    <section>
-    <table class="table table-dark table-listrado">
+    <table class="table table-hover">
         <tr class="bg-dark text-white">
             <td>Prato</td>
             <td>Rua</td>
