@@ -9,7 +9,7 @@ public partial class Adm_ReservaAgoraAdm : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
+       if (!IsPostBack)
         {
             ltlReserva.Text = ReservaBD.SelectTabela();
 

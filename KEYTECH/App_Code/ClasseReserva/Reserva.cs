@@ -16,11 +16,11 @@ public class Reserva
 
     public Reserva(string nomereserva, string sobrenome, int adultos, int criancas, double data)
     {
-        this.nomereserva = nomereserva;
-        this.sobrenome = sobrenome;
-        this.adultos = adultos;
-        this.criancas = criancas;
-        this.data = data;
+        this.Nomereserva = nomereserva;
+        this.Sobrenome = sobrenome;
+        this.Adultos = adultos;
+        this.Criancas = criancas;
+        this.Data = data;
 
     }
 
@@ -89,3 +89,5 @@ public class Reserva
         }
     }
 }
+
+   
