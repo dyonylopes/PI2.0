@@ -423,26 +423,22 @@
                 <!-- Modal body -->
                 <div class="modal-body">
 
-					<label>Quantidade:</label>
-					<asp:TextBox runat="server" ID="txtqtd" CssClass="form-control"  type="number"></asp:TextBox>
+					
 
                     
                     <label>Prato:</label>
                     <asp:DropDownList runat="server" ID="ddlPrato" CssClass="form-control">
-                        <asp:ListItem Value="P1" Selected="true">Prato 01</asp:ListItem> 
-                        <asp:ListItem Value="10">Prato 02</asp:ListItem>
-                        <asp:ListItem Value="P3">Prato 03</asp:ListItem>
-                        <asp:ListItem Value="P4">Prato 04</asp:ListItem>
-                        <asp:ListItem Value="P5" >Prato 05</asp:ListItem>
+                        <asp:ListItem Value="15,99" Selected="true">Prato 01</asp:ListItem> 
+                        <asp:ListItem Value="13,99">Prato 02</asp:ListItem>
+                        <asp:ListItem Value="12,99">Prato 03</asp:ListItem>
+                        <asp:ListItem Value="10,99">Prato 04</asp:ListItem>
+                        <asp:ListItem Value="12,00" >Prato 05</asp:ListItem>
                         </asp:DropDownList>
                     <br />
-					
-
-                  
-
-
-
-                   
+                    
+					<label>Quantidade:</label>
+                   <asp:TextBox runat="server" ID="txtQtd" CssClass="form-control" type="number"></asp:TextBox>
+					<br />
 
                     <label>Rua:</label>
                     <asp:TextBox runat="server" ID="txtRua" CssClass="form-control"></asp:TextBox>

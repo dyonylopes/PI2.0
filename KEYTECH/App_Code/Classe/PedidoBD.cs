@@ -23,6 +23,7 @@ public class PedidoBD
         {
             str += "<tr>";
             str += "<td>" + ped[i].Prato + "</td>";
+            str += "<td>" + ped[i].Quantidade + "</td>";
             str += "<td>" + ped[i].Rua + "</td>";
             str += "<td>" + ped[i].Numero + "</td>";
             str += "<td>" + ped[i].Bairro + "</td>";

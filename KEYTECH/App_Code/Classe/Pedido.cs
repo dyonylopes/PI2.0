@@ -15,14 +15,17 @@ public class Pedido
     private int quantidade;
     private double valor;
 
-    public Pedido(string prato, string rua, int numero, string bairro, int quantidade, double valor )
+
+    public Pedido(string prato, string rua, int numero, string bairro, int quantidade, double valor)
     {
-        this.prato = prato;
-        this.rua = rua;
-        this.numero = numero;
-        this.bairro = bairro;
+        this.Prato = prato;
+        this.Rua = rua;
+        this.Numero = numero;
+        this.Bairro = bairro;
         this.Quantidade = quantidade;
         this.Valor = valor;
+     
+
     }
 
     public string Prato
@@ -102,8 +105,8 @@ public class Pedido
             valor = value;
         }
     }
-
-    public double Calvalor() {
+    public double Calvalor()
+    {
 
         return quantidade * valor;
     }

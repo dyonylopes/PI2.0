@@ -15,22 +15,22 @@ public partial class _Default : System.Web.UI.Page
     protected void btnPedido_Click(object sender, EventArgs e)
 
 
-    {
+    { 
 
 
-
-        Pedido p = new Pedido(ddlPrato.SelectedValue, txtRua.Text, Convert.ToInt32(txtNumero.Text), txtBairro.Text, Convert.ToInt32(txtqtd), Convert.ToDouble(ddlPrato.SelectedValue));
+        Pedido p = new Pedido (ddlPrato.SelectedItem.Text, txtRua.Text, Convert.ToInt32(txtNumero.Text), txtBairro.Text, Convert.ToInt32(txtQtd.Text), Convert.ToDouble(ddlPrato.SelectedValue));
         PedidoBD.Insert(p);
+
+        txtQtd.Text = "";
         ddlPrato.SelectedValue = "";
         txtRua.Text = "";
         txtNumero.Text = "";
         txtBairro.Text = "";
-
-
-     
-
-
         
+        
+
+
+ 
     }
 
     
