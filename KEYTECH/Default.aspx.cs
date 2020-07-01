@@ -13,14 +13,25 @@ public partial class _Default : System.Web.UI.Page
     }
 
     protected void btnPedido_Click(object sender, EventArgs e)
+
+
     {
 
-        Pedido p = new Pedido(ddlPrato.SelectedValue, txtRua.Text, Convert.ToInt32(txtNumero.Text), txtBairro.Text);
+
+
+        Pedido p = new Pedido(ddlPrato.SelectedValue, txtRua.Text, Convert.ToInt32(txtNumero.Text), txtBairro.Text, Convert.ToInt32(txtqtd), Convert.ToDouble(ddlPrato.SelectedValue));
         PedidoBD.Insert(p);
         ddlPrato.SelectedValue = "";
         txtRua.Text = "";
         txtNumero.Text = "";
         txtBairro.Text = "";
 
+
+     
+
+
+        
     }
+
+    
 }

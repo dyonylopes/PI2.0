@@ -12,15 +12,15 @@ public class Reserva
     private string sobrenome;
     private int adultos;
     private int criancas;
-    private double data;
+    private DateTime data;
 
-    public Reserva(string nomereserva, string sobrenome, int adultos, int criancas, double data)
+    public Reserva(string nomereserva, string sobrenome, int adultos, int criancas, DateTime data)
     {
         this.Nomereserva = nomereserva;
         this.Sobrenome = sobrenome;
         this.Adultos = adultos;
         this.Criancas = criancas;
-        this.Data = data;
+        this.data = data;
 
     }
 
@@ -76,7 +76,7 @@ public class Reserva
         }
     }
 
-    public double Data
+    public DateTime Data
     {
         get
         {

@@ -37,7 +37,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
 
     protected void btnResrva_Click(object sender, EventArgs e)
     {
-        Reserva r = new Reserva(txtNome.Text, txtSobrenome.Text, Convert.ToInt32(txtAdultos.Text), Convert.ToInt32(txtCriancas.Text), Convert.ToDouble(txtData.Text));
+        Reserva r = new Reserva(txtNome.Text, txtSobrenome.Text, Convert.ToInt32(txtAdultos.Text), Convert.ToInt32(txtCriancas.Text), Convert.ToDateTime(txtData.Text));
         ReservaBD.Insert(r);
 
         txtNome.Text = "";

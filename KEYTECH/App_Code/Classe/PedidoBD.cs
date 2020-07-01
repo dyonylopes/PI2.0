@@ -26,6 +26,7 @@ public class PedidoBD
             str += "<td>" + ped[i].Rua + "</td>";
             str += "<td>" + ped[i].Numero + "</td>";
             str += "<td>" + ped[i].Bairro + "</td>";
+            str += "<td>" + ped[i].Calvalor() + "</td>";
             str += "</tr>";
         }
 
