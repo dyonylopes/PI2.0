@@ -11,6 +11,7 @@
     <h4>Consultar Rápida</h4>
 
     <iframe height="200px" width="100%" src="PedidoPrato.aspx" name="iframe_a">></iframe>
+    <iframe height="200px" width="100%" src="ReservaAgoraAdm.aspx" name="iframe_a">></iframe>
 
   </section>
 
