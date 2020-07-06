@@ -404,6 +404,52 @@
 			</ul>
 			<div class="tp-bannertimer" style="height: 10px; background: rgba(255,255,255,0.25);"></div>	</div>
 		</div><!-- END REVOLUTION SLIDER -->
+
+
+		<main class="container">
+          <div class="row">
+		  <div class="col-6 mt-5">
+                    
+			<h2>Restaurante Sabor do Vale</h2>
+			  </br>
+              <p align="justify">Aberto a 32 anos, o <i>Restaurante Sabor do Vale</i>, foi fundado como uma microempresa familiar em que tem vindo proporcionar culinária 
+				 caseira para seus clientes com temperos extremamente saborosos repassado pela família a décadas.</p> 
+			  <p align="justify"> Mais que um Restaurante especializado em comida caseira, um estabelecimento de renome com um ambiente familiar e preço justo, preparando sua saciedade com pratos de qualidade.</p>
+			  <p align="justify">Situado na cidade de Guaratinguetá e que com o tempo naturalmente foi precisando se adequar as novas tecnologias para que mantenha seu alcance,
+				 já que o mundo está procurando cada vez mais conforto e praticidade.</p>
+                </div>  
+		
+                <div class="col-6 mt-5" class="img-thumbnail"  alt="Fachado do Restaurante">
+                    <img src="Imagens/SaborDoVale.jpg" />                 
+                    
+                </div>
+
+			  <div class="col-6 mt-5">
+
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881719.742638447!2d-45.97227747050353!3d-22.904743087500886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc37c27af9eb4b%3A0xb820ce0e46d218ce!2sSABOR%20DO%20VALE%20RESTAURANTE!5e0!3m2!1spt-BR!2sbr!4v1594055350097!5m2!1spt-BR!2sbr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				  
+			    </div>
+			  <div class="col-6 mt-5">
+
+				  <h3>Contato Restaurante Sabor do Vale</h3>
+
+				  <p>Avenida, Av. Pico das Agulhas Negras, 616</p>
+				  </br>
+				  <p>Jardim Altos de Santana, São José dos Campos - SP</p>
+				  <br />
+				  <p>Tel: (12)3131-3132</p>
+
+				  <h3>Deixe seu comentário:</h3>
+
+				  <p><a href="mailto:contato@sabordovale.com.br">CONTATO@SABORDOVALE.COM.BR</a></p>
+			  
+		 </div>
+        </main>
+
+		
+		
+
+
 		
 	</section><!-- slider -->
 

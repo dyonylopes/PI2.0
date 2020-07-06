@@ -36,7 +36,7 @@ html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 
 
 body{ font-size: 15px; font-family: 'Poppins', serif; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	line-height: 1; margin: 0 50px; padding: 60px 0; height: 100vh; 
+	line-height: 1; margin: 0 50px; padding: 60px 0; height: 230VH;  /* HEIGHT100VH PARA FULLSCREEN */
 	width: calc(100% - 100px); position: relative; z-index: 1; color: #333; }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
@@ -63,9 +63,18 @@ a b.light-color:hover{ text-decoration: none; color: #37D583; }
 
 b{ font-weight: 600; }
 
-img{ width: 100%; }
+img {
+	width: 100%;
+	border-radius: 50%;
+}
 
-li{ list-style: none; display: inline-block; }
+
+
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+}
+	li{ list-style: none; display: inline-block; }
 
 span{ display: inline-block; }
 

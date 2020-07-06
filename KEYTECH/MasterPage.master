@@ -12,12 +12,7 @@
 
 	
     <asp:ContentPlaceHolder id="head" runat="server">
-		</asp:ContentPlaceHolder>
-   
-
-
-
-
+	</asp:ContentPlaceHolder>
 
     <!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
@@ -70,9 +65,8 @@
 
 
 
-        <header>
+        <header id="top">
 		<a class="logo" href="Default.aspx"><img src="Imagens/Logo.png" alt="Logo" />
-            
 		<a class="right-area" href="Admin.aspx" data-toggle="modal" data-target="#myModal">LOGIN</a>
 		
 		<a class="menu-nav-icon" data-menu="#main-menu"><i class="ion-navicon"></i></a>
@@ -90,10 +84,7 @@
 
 
 
-        <!--           Menu           -->
-
-
-        
+        <!--           Menu           -->      
 
      
 
@@ -107,11 +98,12 @@
 		<!--  footer -->
         <footer>
 		<p class="copyright">
-		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved KeyTech</a>
+		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved KeyTec</a>
 
 		</p>
 		
-		<a class="show-thumb-btn" href="Reserva.aspx">FAÇA SUA RESERVA</a>
+		<a  href="#top" class="show-thumb-btn" > <img src="Imagens/UP.png" /></a>
+            
 		
 		<ul class="social-icons">
 		  <li><a href="#"><em class="ion-social-facebook-outline"></em></a></li>
