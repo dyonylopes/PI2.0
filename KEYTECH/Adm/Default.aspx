@@ -8,9 +8,10 @@
   
 
 
-    <h4>Consultar Rápida</h4>
+    <h4>Consulta Rápida</h4>
 
     <iframe height="200px" width="100%" src="PedidoPrato.aspx" name="iframe_a">></iframe>
+       <br />
     <iframe height="200px" width="100%" src="ReservaAgoraAdm.aspx" name="iframe_a">></iframe>
 
   </section>
